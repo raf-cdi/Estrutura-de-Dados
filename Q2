@@ -1,0 +1,6 @@
+nota = float(input('Digite uma nota: '))
+
+if nota > 10:
+    float(input('Nota inválida, por favor digite uma nota entre 0 e 10: '))
+else:
+    print(nota)

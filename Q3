@@ -1,0 +1,4 @@
+f = float(input('Digite uma temperatura em °F: '))
+c = 5 * ((f - 32) / 9)
+
+print('%.0f°C' %c)

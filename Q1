@@ -1,0 +1,13 @@
+nota1 = int(input('Digite a primeira nota: '))
+nota2 = float(input('Digite a segunda nota: '))
+nota3 = float(input('Digite a terceira nota: '))
+resultado = (nota1 + nota2 + nota3) / 3
+   
+if resultado == 10:
+    print(f'Parabéns, você foi aprovado com distinção com média {resultado}')
+elif resultado >= 7 and resultado < 10:
+    print(f'Parabéns, você foi aprovado com média {resultado}')
+elif resultado < 7:
+    print(f'Você foi reprovado com média {resultado}')
+else:
+    print('Nota inválida')
